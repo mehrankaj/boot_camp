@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(210, 205, 203);
+    direction:rtl;
+}
+
+.major{
+width: 60%;
+height: 900px;
+border:2px;
+display: inline-flex;
+height: 360px;
+}
+
+.text{
+display: inline 3;
+background-color: rgb(255, 255, 255);
+font-size: 20px;
+padding: 8px;
+margin:4px;
+width:350px;
+}
+
+.picture{
+position: relative;
+margin-right: 8px;
+}
+
+.picture-container{
+height:350px;
+width:700px;
+display: inline-block;
+margin: 5px;
+}
+
+.picture-button1{
+position:absolute;
+display: inline;
+top: 50%;
+left:1%;
+bottom: 50%;
+font-size: 20px;
+}
+
+.picture-button2{
+position:absolute;
+display: inline;
+top: 50%;
+right:1%;
+bottom: 50%;
+font-size: 20px;
+}
