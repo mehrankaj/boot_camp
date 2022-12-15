@@ -77,40 +77,17 @@ function tamrin5(){
 }
 // tamrin5();
 
- function tamrin6(){
+  function tamrin6(){
     var numbersArray = [1,13,22,123,49];
-    let max = 0
-    for(let index6 = 0 ; index6 < numbersArray.length ; index6++){
-        if (numbersArray[index6] > numbersArray[index6+1]){
-            max = numbersArray[index6]
-        }
-
-
-    }
-console.log(max);
-
-
-    
+    console.log(math.max(numbersArray)); 
  }
 // tamrin6();
 
-// function tamrin7(){
-//     var numbersArray = [1,13,22,123,49];
-//     let min = 0
-//     for(let index7 = 0 ; index7 < numbersArray.length ; index7++){
-//         if (numbersArray[index7] < numbersArray[index7+1]){
-//             min = numbersArray[index7]
-//         }
-
-
-//     }
-// console.log(min);
-
-
-    
-//  }
+function tamrin7(){
+    var numbersArray = [1,13,22,123,49];
+    console.log(math.min(numbersArray));
+ }
 //  tamrin7();
-
  function tamrin9() {
     let str = "rahkar"
     let nstring = ""; 
