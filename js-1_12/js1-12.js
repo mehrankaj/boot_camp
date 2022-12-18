@@ -77,17 +77,19 @@ function tamrin5(){
 }
 // tamrin5();
 
-  function tamrin6(){
-    var numbersArray = [1,13,22,123,49];
-    console.log(math.max(numbersArray)); 
- }
+ function tamrin6(){
+    var numbersArray = [1,13,22,123,49];  
+    var max = Math.max(...numbersArray);
+    console.log(max);
+ } 
 // tamrin6();
 
 function tamrin7(){
-    var numbersArray = [1,13,22,123,49];
-    console.log(math.min(numbersArray));
+    var numbersArray = [1,13,22,123,49]; 
+    var min = Math.min( ...numbersArray )
+    console.log(min);
  }
-//  tamrin7();
+// tamrin7();
  function tamrin9() {
     let str = "rahkar"
     let nstring = ""; 
